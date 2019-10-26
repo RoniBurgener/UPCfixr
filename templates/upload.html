@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="static/imgs/barcode.png" />
+    <title>Upc Fixr</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/main.css">
+  </head>
+  <body>
+    <section>
+      <h1>Upc Fixr</h1>
+      <form action="/results" method="POST" enctype="multipart/form-data">
+        <label>Upload CSV:<label>
+        <input type="file" accept=".csv" name="file" />
+        <input type="submit" />
+      </form>
+    </section>
+
+  </body>
+</html>
