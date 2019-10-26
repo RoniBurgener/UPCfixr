@@ -56,6 +56,17 @@ input[type=submit]:hover {
   margin-bottom: 200px;
 }
 
+@keyframes onloadFade {
+  from {
+    opacity: 0;
+    margin: 0px;
+  }
+  to {
+    opacity: 1;
+    margin-bottom: 200px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   body {
     max-height: 90vh;
@@ -71,17 +82,5 @@ input[type=submit]:hover {
   }
   input {
     font-size: 2.5rem;
-  }
-}
-
-
-@keyframes onloadFade {
-  from {
-    opacity: 0;
-    margin: 0px;
-  }
-  to {
-    opacity: 1;
-    margin-bottom: 200px;
   }
 }
