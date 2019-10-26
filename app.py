@@ -6,8 +6,6 @@ app = Flask(__name__)
 # This packages allows for saving files
 import os
 
-print(os.path.abspath("static/imgs/uploads"))
-
 # Set path to upload imgs
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 

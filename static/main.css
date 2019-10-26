@@ -57,8 +57,11 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 992px) {
-  body {
+  * {
     font-size: 3rem;
+  }
+  body {
+    max-height: 90vh;
   }
   form {
     opacity: 1;
