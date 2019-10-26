@@ -42,17 +42,19 @@ input {
 }
 
 input[type=submit] {
-  border: none;
+  border: 1.5px #cc0044 solid;
   border-radius: 4px;
   padding: 6px 10px;
   cursor: pointer;
-  background: #990033;
-  color: #f8f8f8;
+  background: transparent;
+  color: #cc0044;
   margin-top: 16px;
+  font-weight: bold;
 }
 
 input[type=submit]:hover {
   background: #cc0044;
+  color: white;
 }
 
 #view {
