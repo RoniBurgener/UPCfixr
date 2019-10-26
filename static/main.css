@@ -7,11 +7,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #f0f0f0;
   max-width: 100%;
+  max-height: 100vh;
   margin: 0;
 }
 
 section {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   max-width: 100%;
   display: flex;
