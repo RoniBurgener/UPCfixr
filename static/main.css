@@ -55,6 +55,15 @@ input[type=submit]:hover {
   margin-bottom: 200px;
 }
 
+@media screen and (max-width: 992px) {
+  form {
+    animation: none;
+    margin-bottom: 200px;
+    font-size: 3rem;
+  }
+}
+
+
 @keyframes onloadFade {
   from {
     opacity: 0;
