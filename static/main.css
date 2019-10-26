@@ -50,6 +50,7 @@ input[type=submit] {
   color: #cc0044;
   margin-top: 16px;
   font-weight: bold;
+  transition: all 0.2s ease;
 }
 
 input[type=submit]:hover {
@@ -87,5 +88,9 @@ input[type=submit]:hover {
   }
   input {
     font-size: 2.5rem;
+  }
+  input[type=submit] {
+    background: #cc0044;
+    color: white;
   }
 }
