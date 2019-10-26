@@ -13,6 +13,7 @@ body {
 }
 
 section {
+  font-size: 1.25rem;
   height: 100%;
   width: 100%;
   max-width: 100%;
@@ -34,6 +35,7 @@ form {
 }
 
 input {
+  font-size: 1.25rem;
   margin: 12px 0;
   display: block;
   outline: none;
@@ -44,13 +46,13 @@ input[type=submit] {
   border-radius: 4px;
   padding: 6px 10px;
   cursor: pointer;
-  background: #86592d;
+  background: #990033;
   color: #f8f8f8;
   margin-top: 16px;
 }
 
 input[type=submit]:hover {
-  background: #996633;
+  background: #cc0044;
 }
 
 #view {
