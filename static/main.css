@@ -56,10 +56,13 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 992px) {
+  body {
+    font-size: 3rem;
+  }
   form {
+    opacity: 1;
     animation: none;
     margin-bottom: 200px;
-    font-size: 3rem;
   }
 }
 
