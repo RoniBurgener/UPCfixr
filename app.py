@@ -18,7 +18,7 @@ def first_route():
 @app.route('/results', methods=['POST', 'GET'])
 def send_csv():
     if request.method == 'POST':
-        if request.files['file'].filename == '':
+        if request.files['file'].filename == '' or request.files['file'].filename.endswith('.csv') == False:
             return render_template('upload.html')
         else:
             target = os.path.join(APP_ROOT, 'static/uploads')

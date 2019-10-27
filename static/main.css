@@ -34,7 +34,7 @@ form {
 }
 
 input {
-  font-size: 20px;
+  font-size: 18px;
   margin: 12px 0;
   display: block;
   outline: none;
@@ -72,7 +72,7 @@ input[type=submit]:hover {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   body {
     max-height: 90vh;
   }
@@ -82,7 +82,7 @@ input[type=submit]:hover {
     margin-bottom: 200px;
   }
   input {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   input[type=submit] {
     background: #cc0044;
