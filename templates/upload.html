@@ -10,7 +10,11 @@
   </head>
   <body>
     <section>
-      <h1>Upc Fixr</h1>
+      <div id="brand">
+        <img id="logo" src="/static/imgs/barcode.png" alt="upc-fixr-logo">
+        <h1>Upc Fixr</h1>
+      </div>
+
       <form action="/results" method="POST" enctype="multipart/form-data">
         <label>Upload CSV:<label>
         <input type="file" accept=".csv" value='' name="file" />

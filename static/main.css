@@ -23,6 +23,17 @@ section {
   padding: 16px 40px;
 }
 
+#brand {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+#logo {
+  height: 60px;
+  margin-right: 16px;
+}
+
 form {
   opacity: 0;
   padding: 20px 16px;
