@@ -1,5 +1,5 @@
 # This package allows servers, requests, urls, etc.
-from flask import Flask, request, render_template, redirect
+from flask import Flask, request, render_template, redirect, url_for
 # Create app var from Flask package
 app = Flask(__name__)
 
@@ -11,7 +11,7 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Create get route, function to run on request
 @app.route('/')
-def first_route():
+def home_route():
     return render_template('upload.html')
 
 # Create post route, function to run on request
@@ -19,7 +19,7 @@ def first_route():
 def send_csv():
     if request.method == 'POST':
         if request.files['file'].filename == '' or request.files['file'].filename.endswith('.csv') == False:
-            return render_template('upload.html')
+            return redirect(url_for("home_route"))
         else:
             target = os.path.join(APP_ROOT, 'static/uploads')
             file = request.files['file']
@@ -28,7 +28,7 @@ def send_csv():
             file.save(destination)
             return render_template('results.html', download_file = filename)
     else:
-        return render_template('upload.html')
+        return redirect(url_for("home_route"))
 
 # This runs the server (provided by Flask)
 if __name__ == '__main__':
