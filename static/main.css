@@ -87,6 +87,9 @@ input[type=submit]:hover {
   body {
     max-height: 90vh;
   }
+  #logo {
+    height: 40px;
+  }
   form {
     opacity: 1;
     animation: none;
