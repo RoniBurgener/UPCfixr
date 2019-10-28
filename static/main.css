@@ -52,19 +52,19 @@ input {
 }
 
 input[type=submit] {
-  border: 1.5px #cc0044 solid;
+  border: none;
   border-radius: 4px;
-  padding: 6px 10px;
+  padding: 8px 12px;
   cursor: pointer;
-  background: transparent;
-  color: #cc0044;
+  background: #e6004c;
+  color: #fff;
   margin-top: 16px;
   font-weight: bold;
   transition: all 0.2s ease;
 }
 
 input[type=submit]:hover {
-  background: #cc0044;
+  background: #ff3377;
   color: white;
 }
 
