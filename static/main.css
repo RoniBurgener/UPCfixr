@@ -99,9 +99,7 @@ input[type=submit]:hover {
     font-size: 0.7rem;
   }
   input[type=submit] {
-    background: #cc0044;
+    background: #e6004c;
     color: white;
   }
 }
-
-/* #FF0055 */
