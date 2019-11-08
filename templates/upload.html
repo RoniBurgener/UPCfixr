@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upc Fixr</title>
+    <title>UPC Fixr</title>
     <link rel="shortcut icon" href="static/imgs/barcode.png" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/main.css">
@@ -12,13 +12,17 @@
     <section>
       <div id="brand">
         <img id="logo" src="/static/imgs/barcode.png" alt="upc-fixr-logo">
-        <h1>Upc Fixr</h1>
+        <h1>UPC Fixr</h1>
       </div>
 
       <form action="/results" method="POST" enctype="multipart/form-data">
-        <label>Upload CSV:<label>
-        <input type="file" accept=".csv" value='' name="file" />
-        <input type="submit" />
+        <label>Manufacturer ID:<label>
+        <input type="text" placeholder='Enter Manufacturer ID' name="manid" />
+        <label>Brand ID:<label>
+        <input type="text" placeholder='Enter Brand ID' name="brandid" />
+        <label>Upload Excel File:<label>
+        <input type="file" accept=".xlsx" value='' name="file" />
+        <input value="Shazam!" type="submit" />
       </form>
     </section>
 

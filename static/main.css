@@ -30,7 +30,7 @@ section {
 }
 
 #logo {
-  height: 60px;
+  height: 80px;
   margin-right: 16px;
 }
 
@@ -61,6 +61,7 @@ input[type=submit] {
   margin-top: 16px;
   font-weight: bold;
   transition: all 0.2s ease;
+  width: 100%;
 }
 
 input[type=submit]:hover {
